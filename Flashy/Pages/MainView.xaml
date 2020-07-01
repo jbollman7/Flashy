@@ -9,10 +9,10 @@
     </ContentPage.BindingContext>
 
     <StackLayout>
-        <ImageButton Source="power_logo_dark"
+        <ImageButton Source="{Binding BackGroundImage}"
                      VerticalOptions="FillAndExpand"
                      Command="{Binding PowerButtonCommand}"
-                     BackgroundColor="Black"/>
+                     BackgroundColor="{Binding BackGroundColor}"/>
     </StackLayout>
 
 </ContentPage>
