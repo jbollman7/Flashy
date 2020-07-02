@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.windrock.flashy">
-	<uses-sdk android:minSdkVersion="25" android:targetSdkVersion="29" />
-	<application android:label="Flashy.Android"></application>
-	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="29" />
+	<application android:label="Flashy" android:icon="@drawable/flashy_icon"></application>
 	<uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-permission android:name="android.permission.CAMERA" />
 </manifest>
